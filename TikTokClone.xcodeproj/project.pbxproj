@@ -11,6 +11,7 @@
 		704810E72B349845002378C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704810E62B349845002378C6 /* ContentView.swift */; };
 		704810E92B349846002378C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704810E82B349846002378C6 /* Assets.xcassets */; };
 		704810EC2B349846002378C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704810EB2B349846002378C6 /* Preview Assets.xcassets */; };
+		70C689A22B38465F00104194 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689A12B38465F00104194 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		704810E62B349845002378C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		704810E82B349846002378C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704810EB2B349846002378C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70C689A12B38465F00104194 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				704810E62B349845002378C6 /* ContentView.swift */,
+				70C689A12B38465F00104194 /* MainTabView.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				704810E72B349845002378C6 /* ContentView.swift in Sources */,
 				704810E52B349845002378C6 /* TikTokCloneApp.swift in Sources */,
+				70C689A22B38465F00104194 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
