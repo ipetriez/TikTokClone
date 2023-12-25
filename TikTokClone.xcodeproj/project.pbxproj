@@ -24,6 +24,7 @@
 		70C689BB2B398EB200104194 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689BA2B398EB200104194 /* UserStatsView.swift */; };
 		70C689BF2B399FCF00104194 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689BE2B399FCF00104194 /* Post.swift */; };
 		70C689C22B39A04C00104194 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689C12B39A04C00104194 /* FeedViewModel.swift */; };
+		70C689C52B39B0FA00104194 /* TikTokVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689C42B39B0FA00104194 /* TikTokVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		70C689BA2B398EB200104194 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
 		70C689BE2B399FCF00104194 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		70C689C12B39A04C00104194 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		70C689C42B39B0FA00104194 /* TikTokVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				70C689B02B3984AE00104194 /* NotificationCell.swift */,
 				70C689B72B398BC400104194 /* PostGridView.swift */,
 				70C689A62B3862A500104194 /* FeedCell.swift */,
+				70C689C42B39B0FA00104194 /* TikTokVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				70C689AA2B38B11800104194 /* FriendsView.swift in Sources */,
 				70C689A22B38465F00104194 /* MainTabView.swift in Sources */,
 				70C689B82B398BC400104194 /* PostGridView.swift in Sources */,
+				70C689C52B39B0FA00104194 /* TikTokVideoPlayer.swift in Sources */,
 				70C689B42B398B1800104194 /* CurrentUserProfileView.swift in Sources */,
 				70C689AC2B38B18100104194 /* UserCell.swift in Sources */,
 				70C689AF2B3984A000104194 /* NotificationsView.swift in Sources */,
