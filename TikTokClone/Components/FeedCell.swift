@@ -6,19 +6,15 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct FeedCell: View {
-    let post: Int
+    let post: Post
     
     var body: some View {
         ZStack {
-            Rectangle()
-                .fill(.clear)
+            VideoPlayer(player: AVPlayer(url: URL(string: post.videoURL)!))
                 .containerRelativeFrame([.horizontal, .vertical])
-                .overlay {
-                    Text("Post \(post)")
-                        .foregroundStyle(.black)
-                }
             
             VStack {
                 Spacer()
@@ -28,7 +24,7 @@ struct FeedCell: View {
                             .fontWeight(.semibold)
                         Text("Rocket ship prepare for take off!🚀🚀")
                     }
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.white)
                     .font(.subheadline)
                     
                     Spacer()
@@ -46,10 +42,10 @@ struct FeedCell: View {
                                 Image(systemName: "heart.fill")
                                     .resizable()
                                     .frame(width: 28, height: 28)
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 Text("27")
                                     .font(.caption)
-                                    .foregroundColor(.black)
+                                    .foregroundColor(.white)
                                     .bold()
                             }
                         }
@@ -61,10 +57,10 @@ struct FeedCell: View {
                                 Image(systemName: "ellipsis.bubble.fill")
                                     .resizable()
                                     .frame(width: 28, height: 28)
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                                 Text("27")
                                     .font(.caption)
-                                    .foregroundColor(.black)
+                                    .foregroundColor(.white)
                                     .bold()
                             }
                         }
@@ -75,7 +71,7 @@ struct FeedCell: View {
                             Image(systemName: "bookmark.fill")
                                 .resizable()
                                 .frame(width: 22, height: 28)
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                         }
                         
                         Button {
@@ -84,7 +80,7 @@ struct FeedCell: View {
                             Image(systemName: "arrowshape.turn.up.right.fill")
                                 .resizable()
                                 .frame(width: 28, height: 28)
-                                .foregroundColor(.black)
+                                .foregroundColor(.white)
                         }
                     }
                 }
@@ -96,5 +92,5 @@ struct FeedCell: View {
 }
 
 #Preview {
-    FeedCell(post: 2)
+    FeedCell(post: Post(id: "", videoURL: ""))
 }
