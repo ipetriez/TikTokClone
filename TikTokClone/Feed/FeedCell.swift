@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FeedCell: View {
-    
     let post: Int
     
     var body: some View {
