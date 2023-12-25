@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		704810E52B349845002378C6 /* TikTokCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704810E42B349845002378C6 /* TikTokCloneApp.swift */; };
-		704810E72B349845002378C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704810E62B349845002378C6 /* ContentView.swift */; };
 		704810E92B349846002378C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704810E82B349846002378C6 /* Assets.xcassets */; };
 		704810EC2B349846002378C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704810EB2B349846002378C6 /* Preview Assets.xcassets */; };
 		70C689A22B38465F00104194 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689A12B38465F00104194 /* MainTabView.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		704810E12B349845002378C6 /* TikTokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704810E42B349845002378C6 /* TikTokCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokCloneApp.swift; sourceTree = "<group>"; };
-		704810E62B349845002378C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		704810E82B349846002378C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704810EB2B349846002378C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70C689A12B38465F00104194 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		704810F42B34992C002378C6 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				704810E62B349845002378C6 /* ContentView.swift */,
 				70C689A12B38465F00104194 /* MainTabView.swift */,
 			);
 			path = Root;
@@ -274,7 +271,6 @@
 				70C689BB2B398EB200104194 /* UserStatsView.swift in Sources */,
 				70C689C22B39A04C00104194 /* FeedViewModel.swift in Sources */,
 				70C689BF2B399FCF00104194 /* Post.swift in Sources */,
-				704810E72B349845002378C6 /* ContentView.swift in Sources */,
 				704810E52B349845002378C6 /* TikTokCloneApp.swift in Sources */,
 				70C689AA2B38B11800104194 /* FriendsView.swift in Sources */,
 				70C689A22B38465F00104194 /* MainTabView.swift in Sources */,
