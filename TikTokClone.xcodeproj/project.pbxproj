@@ -16,6 +16,8 @@
 		70C689A72B3862A500104194 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689A62B3862A500104194 /* FeedCell.swift */; };
 		70C689AA2B38B11800104194 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689A92B38B11800104194 /* FriendsView.swift */; };
 		70C689AC2B38B18100104194 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689AB2B38B18100104194 /* UserCell.swift */; };
+		70C689AF2B3984A000104194 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689AE2B3984A000104194 /* NotificationsView.swift */; };
+		70C689B12B3984AE00104194 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C689B02B3984AE00104194 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		70C689A62B3862A500104194 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		70C689A92B38B11800104194 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		70C689AB2B38B18100104194 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		70C689AE2B3984A000104194 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		70C689B02B3984AE00104194 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				704810F42B34992C002378C6 /* Root */,
 				70C689A32B38593B00104194 /* Feed */,
 				70C689A82B38B0DE00104194 /* Friends */,
+				70C689AD2B39847D00104194 /* Inbox */,
 				704810F32B349890002378C6 /* Supporting files */,
 				704810EA2B349846002378C6 /* Preview Content */,
 			);
@@ -120,6 +125,15 @@
 				70C689AB2B38B18100104194 /* UserCell.swift */,
 			);
 			path = Friends;
+			sourceTree = "<group>";
+		};
+		70C689AD2B39847D00104194 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				70C689AE2B3984A000104194 /* NotificationsView.swift */,
+				70C689B02B3984AE00104194 /* NotificationCell.swift */,
+			);
+			path = Inbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C689A52B38595100104194 /* FeedView.swift in Sources */,
+				70C689B12B3984AE00104194 /* NotificationCell.swift in Sources */,
 				70C689A72B3862A500104194 /* FeedCell.swift in Sources */,
 				704810E72B349845002378C6 /* ContentView.swift in Sources */,
 				704810E52B349845002378C6 /* TikTokCloneApp.swift in Sources */,
 				70C689AA2B38B11800104194 /* FriendsView.swift in Sources */,
 				70C689A22B38465F00104194 /* MainTabView.swift in Sources */,
 				70C689AC2B38B18100104194 /* UserCell.swift in Sources */,
+				70C689AF2B3984A000104194 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
