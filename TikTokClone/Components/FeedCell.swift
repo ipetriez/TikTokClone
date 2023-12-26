@@ -12,9 +12,9 @@ struct FeedCell: View {
     let post: Post
     var player: AVPlayer
     
-    init(post: Post) {
+    init(post: Post, player: AVPlayer) {
         self.post = post
-        self.player = AVPlayer(url: URL(string: post.videoURL)!)
+        self.player = player
     }
     
     var body: some View {
@@ -97,9 +97,24 @@ struct FeedCell: View {
         .onAppear {
             player.play()
         }
+        .onTapGesture {
+            switch player.timeControlStatus {
+            case .paused:
+                player.play()
+            case .waitingToPlayAtSpecifiedRate:
+                break
+            case .playing:
+                player.pause()
+            @unknown default:
+                break
+            }
+        }
     }
 }
 
 #Preview {
-    FeedCell(post: Post(id: "", videoURL: ""))
+    FeedCell(
+        post: Post(id: NSUUID().uuidString, videoURL: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"),
+        player: AVPlayer()
+    )
 }
